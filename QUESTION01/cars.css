@@ -1,0 +1,32 @@
+img{
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+body > p{
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+div{
+    text-align: center;
+}
+
+#car-info{
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+h2{
+    border: 2px solid black;
+    width: fit-content;
+    margin: 0 auto;
+}
