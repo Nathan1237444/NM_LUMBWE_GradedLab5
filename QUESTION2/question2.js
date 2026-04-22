@@ -6,15 +6,12 @@ window.onload = function() {
 
 function blendNow() {
 
-  // Clear the output box first
   var outputDiv = document.getElementById("output");
 
 
-  //  Read what the user typed in the surname box
   var surname = document.getElementById("surname").value;
-  // .value reads the text currently typed in the input box.
+
   
-  //  Read which font was chosen
   var chosenFont = document.getElementById("font").value;
  
   var chosenColor = document.getElementById("color").value;

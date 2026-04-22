@@ -9,13 +9,12 @@
 
   <h1>Mr. Surname Blender</h1>
 
-  <!-- Row 1: Surname input -->
+  
   <div>
     <span>Surname:</span>
     <input id="surname" type="text" size="20" />
   </div>
 
-  <!-- Row 2: Font selector + Color picker (added feature) -->
   <div>
     <span>Font:</span>
     <select id="font">
@@ -25,7 +24,6 @@
       <option>Verdana</option>
     </select>
 
-    <!-- Color picker: dropdown for Black, Red, Blue, Green -->
 
      <select id="color">
       <option value="black">Black</option>
@@ -34,11 +32,10 @@
       <option value="green">Green</option>
     </select>
 
-    <!-- Font size input (default 16) -->
+ 
     <input id="fontsize" type="number" placeholder="font size" value="16" />
   </div>
 
-  <!-- Row 3: Position radio buttons -->
   <div>
     <span>Position:</span>
     <input id="sequential" name="pos" type="radio" value="seq" checked="checked" /> Sequential
@@ -50,8 +47,7 @@
     Go: <button id="blend-btn">Blend Now</button>
   </div>
 
-  <!-- The output area where letters appear -->
-  <!-- position:relative lets us place letters at exact x,y coordinates inside -->
+
   <div id="output" style="position:relative; width:400px; height:150px; border:1px solid black;"></div>
 </body>
 <script src="question2.js"></script>
